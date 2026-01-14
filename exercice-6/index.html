@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 6: Checkbox et activation de bouton</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Inscription</legend>
+            
+            <label for="username">Nom d'utilisateur :</label>
+            <br>
+            <input type="text" id="username" name="username">
+            <br><br>
+            
+            <label for="email">Email :</label>
+            <br>
+            <input type="email" id="email" name="email">
+            <br><br>
+            
+            <label for="password">Mot de passe :</label>
+            <br>
+            <input type="password" id="password" name="password">
+            <br><br>
+            
+            <input type="checkbox" id="conditions" name="conditions">
+            <label for="conditions">J'accepte les conditions générales d'utilisation</label>
+            <br><br>
+            
+            <button type="submit" id="submitBtn" disabled>S'inscrire</button>
+        </fieldset>
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>
